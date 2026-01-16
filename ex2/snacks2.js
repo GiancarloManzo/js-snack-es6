@@ -13,3 +13,10 @@ for (let i = 0; i < squadre.length; i++) {
   squadre[i].puntiFatti = randomInt(0, 50);
   squadre[i].FalliSubiti = randomInt(0, 10);
 }
+
+const nomeEFalli = squadre.map((squadra) => {
+  return {
+    nome: squadra.nome,
+    FalliSubiti: squadra.FalliSubiti,
+  };
+});
