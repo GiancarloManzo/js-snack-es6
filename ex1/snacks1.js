@@ -6,7 +6,7 @@ const biciclette = [
   { nome: "Pinarello", peso: 6.6 },
 ];
 
-let biciclette = biciclette[0];
+let bicileggera = biciclette[0];
 
 for (let i = 1; i < biciclette.length; i++) {
   if (biciclette[i].peso < bicileggera.peso) {
