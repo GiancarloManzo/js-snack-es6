@@ -1,4 +1,4 @@
-function eseuiSnack2() {
+function eseguiSnack2() {
   const squadre = [
     { nome: "Milan", puntiFatti: 0, FalliSubiti: 0 },
     { nome: "Juventus", puntiFatti: 0, FalliSubiti: 0 },
@@ -23,5 +23,5 @@ function eseuiSnack2() {
   });
 
   console.log("Snack 2 -> Array completo squadre:", squadre);
-  console.log("Snack 2 -> Nuovo array (nome e fall subiti):", FalliSubiti);
+  console.log("Snack 2 -> Nuovo array (nome e fall subiti):", nomeEFalli);
 }
