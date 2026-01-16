@@ -8,3 +8,8 @@ const squadre = [
 function randomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
+for (let i = 0; i < squadre.length; i++) {
+  squadre[i].puntiFatti = randomInt(0, 50);
+  squadre[i].FalliSubiti = randomInt(0, 10);
+}
